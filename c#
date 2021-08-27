@@ -1,0 +1,25 @@
+using System;
+
+namespace My_Awesome_Program
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Give me a number between 1 and 5.");
+            
+            int num  = Convert.ToINt32(Console.Read.Line());
+            
+            if(int num > 1 && int num < 5)
+            {
+                Console.WriteLine("Thanks buddy.");
+            }
+            else
+            {
+                Console.WriteLine("This number is not between 1 and 5.");
+            }
+            
+            Console.ReadKey();
+        }
+    }       
+} 
